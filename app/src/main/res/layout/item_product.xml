@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="@dimen/cardview_default_elevation"
+    app:cardElevation="@dimen/cardview_default_elevation">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/lyt_parent"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/product_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pizza_monster" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingLeft="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/greyPrimary"
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Product Name"
+                android:layout_weight="2.0" />
+
+            <ImageButton
+                android:id="@+id/more"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:tint="@color/greySecondary"
+                app:srcCompat="@drawable/ic_more_vert_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingLeft="2dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 80.00" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.koupner.koupner.restaurantmenu.RestaurantMenuActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/product"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="none" />
+
+    <!-- View for empty Menu -->
+    <LinearLayout
+        android:id="@+id/view_empty_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/restaurant_top_card"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <ImageView
+            android:src="@drawable/pizza_monster"
+            style="@style/AppTheme.PizzaGuy" />
+
+        <TextView
+            style="@style/AppTheme.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/message_no_reviews"
+            android:textColor="@color/greyDisabled" />
+
+    </LinearLayout>
+</RelativeLayout>

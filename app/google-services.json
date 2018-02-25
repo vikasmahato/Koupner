@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "350785342",
+    "firebase_url": "https://koupnerdebug.firebaseio.com",
+    "project_id": "koupnerdebug",
+    "storage_bucket": "koupnerdebug.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350785342:android:c536b6eee76f8856",
+        "android_client_info": {
+          "package_name": "com.koupner.koupner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350785342-mebonn4m9k4g2momc4svh40qjfc4jbqf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.koupner.koupner",
+            "certificate_hash": "3d2ad41d0f57609ac2adc9a5cba514fb38d670a6"
+          }
+        },
+        {
+          "client_id": "350785342-elamqujhbk3thbdc82l7qaqhouldtpe4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNbBIIOOnP4TG6tYJAs-6hjfmHiAI0log"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350785342-elamqujhbk3thbdc82l7qaqhouldtpe4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
